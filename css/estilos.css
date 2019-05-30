@@ -1,0 +1,751 @@
+@charset "utf-8";
+/* CSS Document */
+#tiendas, #equipo{
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+}
+
+
+/*Enlaces*/
+a:link{
+	text-decoration: none;
+
+}
+
+a{
+	text-decoration: none;
+	
+}
+/*Enlaces*/
+
+body{
+  
+  line-height: 3;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+
+}
+/*Encabezado*/
+.jumbotron {
+	background-image:url(../imagenes/Background.jpg);
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: super;
+	color: white; 
+	padding: 200px 25px;
+	text-align: right;
+	margin: 0;
+			
+		}
+.jumbotron span{
+	color: white;
+	line-height: 100px;
+	box-shadow: black 10px 10px 50px;
+	border-radius: 25px;
+	position: relative;
+	vertical-align: text-top;
+	padding: 35px;
+	background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+}
+
+/*Cierre encabezado*/
+
+/*Contenedores Bootstrap*/
+.container-fluid {
+
+	padding: 40px 50px;
+	box-shadow: black 0px 0px 1px;
+	margin: 0;
+}
+.bg-grey {
+		background: rgba(32,124,229,1);
+		background: 
+		 linear-gradient(to right, rgba(32,124,229,1) 0%,
+		 rgba(61,146,233,1) 19%,
+		 rgba(73,155,234,1) 27%,
+		 rgba(32,124,229,1) 55%);
+		}
+/*Cierre Contenedores Bootstrap*/
+			
+/*Responsive*/			
+@media screen and (min-width: 320px){
+				
+				img {max-width: 100%;
+			
+			}
+			                  }	
+			@media screen and (min-width: 768px) {
+    img { max-width: 150px;
+   }
+}
+@media screen and (min-width: 980px){
+   img{max-width: 225px;
+   }
+}
+@media screen and (min-width: 1200px) {
+    img { max-width: 300px;
+    }
+}
+
+/*Cierre Responsive*/
+.icono{
+	color: white;
+	font-size: 20px;
+}
+
+
+/*Navbar*/
+.menu {
+    background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+    padding: 2px 0px 0px;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 3px;
+	opacity: 0.9;
+	border-radius: 5px 5px 10px 10px;
+	overflow: hidden;
+	max-height: 70px;
+}
+
+.menu:hover{
+
+    padding: 2px 0px 0px;
+    border: outset 1px;
+	border-color: white;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 3px;
+	opacity: 1;
+	border-radius: 5px 5px 10px 10px;
+	
+}
+
+.menu li{
+	margin-top: 2px;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+	color: white;
+	vertical-align: top;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a{
+	color: black;
+	background-color: white;
+	opacity: 1;
+	
+}
+.menu .navbar-default .menu .navbar-toggle{
+	border-color: transparent;
+	color: #fff;
+}
+
+/*Cierre Navbar*/
+
+
+
+
+
+
+/*Colores de letra*/
+.letrafondoazul{
+	font-size: 19px;
+	line-height: 1.375em;
+	color: white;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	border: double 1px;
+	border-color: white;
+	padding: 7px;
+	border-top-left-radius: 10px;
+}
+
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #202020;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.letrafondoblanco{
+	background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+	color: white;
+	background-size: 25%;
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.acercade{
+	box-shadow: black 0px 0px 5px 2px;
+	font-variant: small-caps;
+	padding: 10px;	
+	transition: 2s;
+	font-size: 20px;
+}
+
+.acercade:hover{
+	box-shadow: black 0px 0px 10px;
+	
+	padding: 10px;
+	background: #0000ff;
+	color: white;
+	border-radius: 15px;
+}
+#acerca{margin-top: 0;}
+
+/*Seccion Valores*/
+
+.nuestrosvalores{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	text-align: justify;
+	padding: 25px;
+	padding-top: 64px;
+	border:none;}
+
+	
+/*Cierre Seccion Valores*/
+
+
+/*Imágenes*/
+
+.logo{
+	margin: 0px;
+	display: inline-block;
+	height: 75px;
+	width: 300px;
+	padding: 0px;
+	left: 0.1%;
+	top: 0;
+	border-radius: 0%;
+	position: absolute;
+}
+
+#imagenconectarelmundo{
+	border: outset 5px rgba(32,124,229,1);
+	min-width: 90%;
+	border-radius: 50%;
+}
+#imagenconectarelmundo:hover{
+	box-shadow: black 0px 0px 10px;
+	
+}
+.tiendaimagen{
+	border: outset white 3px;
+	border-radius: 15%;
+	height: 190px;
+	width: 100%;
+	margin: 25px;
+	box-shadow: 0px 0px 10px white;
+	transition: 0.5s;
+	
+}
+.tiendaimagen:hover{
+	height: 200px;
+	border: 2px outset #F6F03B;
+	box-shadow: 5px 0px 10px white;
+	transform: rotate3d(2,1,0,27deg)
+}
+
+.imagenproducto{
+	box-shadow: 2px 2px 7px lightblue;
+	border: blue outset 3px;
+	border-radius: 50%;
+	padding: 40px;
+	opacity: 0.8;
+	margin: 35px;
+	transition: 3s;
+	cursor: context-menu;
+	
+}
+
+.imagenproducto:hover{
+	box-shadow: 2px 2px 7px lightblue;
+	border: blue inset 3px;
+	border-radius: 50%;
+	padding: 40px;
+	margin: 35px;
+	opacity: 1;
+	
+	
+}
+/*Cierre Imágenes*/ 
+
+/*Importancia de la Tecnologia*/
+#importanciatecnologia{
+	line-height: 20px;
+	font-size: 18px;
+	text-align: justify;
+	display: block;
+	padding: 35px 60px;
+	box-shadow: black 5px 5px 10px;
+	background: #fff;
+}
+hr{border-color: black;
+width: 100%;}
+
+#definiciontecnologia{
+	background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+	color: white;
+	padding: 25px;
+	border-radius: 30px;
+	}
+
+
+/*Cierre Importancia de la Tecnología*/
+
+/*Sección productos*/
+
+
+.producto{
+	color: black;
+	padding: 15px;
+	margin: 15px;
+	border-top: blue 2px ridge;
+	border-radius: 360px;
+	}
+
+#productos{
+	background-color: white;
+}
+	
+.descripciondeproducto{
+	
+	border: 3px double blue;
+	
+	border-radius: 25px;
+	padding: 15px;
+	box-shadow: 0px 0px 7px black;
+	transition: 2.0s;
+}
+
+.descripciondeproducto:hover{ 
+	border: 3px double blue;
+	background: blue;
+	color: white;
+	
+	border-radius: 0px;
+	padding: 15px;
+	box-shadow: 0px 0px 7px black;
+	
+}
+/*Cierre Productos*/
+
+/*Sección Tiendas*/
+.tiendade {
+	color: white;
+	font-size: 20px;
+	background: transparent;
+}
+
+.tiendade:hover{
+	background: #31C820;
+	cursor: context-menu;
+	box-shadow: white 10px 5px 7px;
+	padding: 6px;
+}
+.tiendaABC{
+	color: white;
+}
+
+/*Cierre Tiendas*/
+
+/*Mapa de Google*/
+
+	
+
+/*Cierre Mapa de Google*/	
+
+/*Sección Contacto*/
+
+.titulo{
+	position: inherit;
+	top: 5%;
+	left: 45%;
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin-left: 1em;
+	
+}
+
+#contactobotonenviar{
+	background-color: green;
+	color: white;
+	padding: 10px;
+	box-shadow: inset;
+	}
+
+.contacto{
+	color: white; 
+	align-content: center;
+	text-decoration-style: double;
+}
+.informaciondecontacto{
+	color: white;
+	text-transform: uppercase;
+	padding: 0px 0px 30px 0px;
+	vertical-align: text-top;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	line-height: 1.5px;
+}
+.informaciondecontacto h4{
+vertical-align: text-top
+}
+
+#contacto{
+	justify-content: center;
+	margin: 0;
+	margin-top: 0px;
+	padding: 0px;
+	align-items: center;
+	min-height: 55vh;
+	display: inline-block;
+    background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+	box-sizing: border-box;
+	/*max-height: 200px;*/
+	box-shadow: 0 0 10px white;
+	border-radius: 0 5px 0 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+
+
+}
+
+#titulocontacto{
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+
+
+#telefono{
+	width: 28%;
+	
+}
+
+
+
+	
+.container1{
+	width: 100%;
+	margin: 0px;
+	display: flex;
+	justify-content:  space-between;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	height: 0px;
+	box-shadow: 0px 0px 10px black;
+
+
+	}	
+	
+.container1 .box{
+	text-align: center;
+	margin: 0 80px;
+	
+	padding: 20px;
+	margin-top: 50px;
+
+	
+	}
+
+
+
+.container1 .box .icon .fa{
+	font-size: 35px;
+	cursor:  pointer;
+	color: white;
+
+}	
+.container1 .box .icon h5, .container1 .box .icon h4 {
+	position: relative;
+	overflow: hidden;
+	font-style: 400px;
+	margin: 0;
+	padding: 2px 5px;
+	font-size: 18px;
+	transition-delay: 0.3333s;
+	color: transparent;
+
+}
+.container1 .box .fa:hover ~ h5,
+.container1 .box .fa:hover ~ h4{
+	color: white;
+}
+ .container1 .box .icon h4{
+ 	font-weight: 600;
+ 	margin: 5px 0;
+ 	font-style: 30px;
+ }
+
+ .container1 .box .icon h5:before, .container1 .box .icon h4:before{
+ 	content: ' ';
+ 	position: absolute;
+ 	top: 0;
+ 	left: 100%;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-color: white;
+ 	transition: 1s;
+ }
+
+ .container1 .box .icon h4:before{
+ 	left: initial;
+ 	right: 100%;
+ 	background-color: orange;
+
+ }
+
+
+
+ .container1 .box .fa:hover ~ h5:before{
+ 	left: -100%;
+
+}
+.container1 .box .fa:hover ~ h4:before{
+	left: initial;
+	right: -100%;
+
+}
+/*Cierre Sección Contacto*/
+
+
+
+/*Steelseries*/
+
+#steelseries{
+	text-align: center;
+	padding: 0px;
+	background-color: black;}
+
+
+	/*Acerca de.HTML*/
+.about{
+	background-image:  url(../imagenes/tecnologiafondocacercade.jpg);
+	color: white;
+}
+
+#ww h1 p{
+	background-color:blue;
+	}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Contenedor transparente*/
+
+.contenedortransparente{
+	
+	display: flex;       
+	position: relative;                                                                                                                     
+	justify-content: flex-start; 
+	align-items: center;
+	height: 100vh;
+	
+	margin: 0px;
+	text-align: justify;
+	background: url("../imagenes/equipotrabajotecnologico.jpg");
+	background-size: 100%;
+	image-rendering: optimizeSpeed;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+.contenedortransparente .box1{
+	line-height: 1.8;
+	position: relative;
+	margin: 35px 25px;
+	max-width: 470px;
+	min-height: 420px;
+	padding: 50px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	overflow: hidden;
+	color: white;
+	background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+}
+.contenedortransparente .box1:before{
+	content: ' ';
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -20px;
+	bottom: -20px;
+	background: url("../imagenes/equipotrabajotecnologico.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	filter: blur(12px);
+
+}
+
+.contenedortransparente .box1 h2{
+	color: white;
+	position: relative;
+	margin: 0 0 20px;
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	z-index: 2;
+	background: rgba(32,124,229,1);
+	background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+
+}
+
+.contenedortransparente .box1 p{
+	position: relative;
+	margin: 0 ;
+	padding: 0;
+	font-size: 18px;
+	z-index: 2;
+
+}
+
+.contenedortransparente .box1 h3{
+	color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-style: italic; 
+	
+}
+
+
+/*Pie de página*/
+footer .fa{
+	font-size: 100px;
+	margin-bottom: 10px;
+	color: blue;
+	width: 30px;
+	
+	
+}
+
+
+
+/*@keyframes animate{*/
+	
+
+
+/*Slider Swiper*/
+section.relative-slider{position: relative;
+		display: block;
+		margin: 0;
+		min-width: 100%;
+		overflow: hidden;
+		padding: 0;
+		border: 5px white outset;
+		border-left: none;
+		border-right: none;
+		border-radius: 5px;
+
+}
+
+    .swiper-container {
+    	position: relative;
+      width: 100%;
+      height: 100vh;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide:nth-child(1){
+    	background: url("../imagenes/fondo-slider.jpg");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+
+    }
+    .swiper-slide:nth-child(2){
+    	background: url("../imagenes/tienda 1.jpg");
+    	background-size: cover;
+    	background-position: center;
+    }
+     .swiper-slide:nth-child(3){
+    	background: url("../imagenes/tienda 2.jpg");
+    	background-size: cover;
+    	background-position: center;
+    }
+     .swiper-slide:nth-child(4){
+    	background: url("../imagenes/tienda 3.jpg");
+    	background-size: cover;
+    	background-position: center;
+    }
+    
+
+    .swiper-slide h2{
+    	color: white;
+    	position: absolute;
+    	bottom: 0%;
+    	right: 3%;
+    	display: block;
+    	text-align: center;
+    	vertical-align: middle;
+    	background: rgba(32,124,229,1);
+		background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(61,146,233,1) 19%, rgba(73,155,234,1) 27%, rgba(32,124,229,1) 55%);
+    	padding: 10px;
+    	border-radius: 0%;
+    	width: 400px;
+    	height: 100px;
+    	font-size: 1.4em;
+    }
+
+   
+   
+    
+    .swiper-slide .enunciado{
+    	position: absolute;
+    	text-align: center;
+    	color: white;
+    	font-size: 30px;
+    	font-style: italic;
+    	font-weight: 700;
+
+    }
+
+
+ div  .swiper-button-next, div .swiper-button-prev
+{background-color: white;
+
+}
+
